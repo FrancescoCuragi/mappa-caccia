@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Mappa Caccia" />
+  <meta name="theme-color" content="#1f3d2b" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./icon-180.png" />
+  <title>Mappa Caccia</title>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="barra">
+    <button id="b-posizione" aria-label="La mia posizione">📍<span>Io</span></button>
+    <button id="b-luogo">➕<span>Luogo</span></button>
+    <button id="b-elenco">📋<span>Nomi</span></button>
+    <button id="b-menu">⚙️<span>Altro</span></button>
+  </div>
+  <div id="avviso" hidden></div>
+  <div id="scheda" hidden></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
